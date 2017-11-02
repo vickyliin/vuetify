@@ -337,6 +337,7 @@ export default {
         'class': this.classes
       }, [
         this.genTHead(),
+        this.genTProgress(),
         this.genTBody(),
         this.genTFoot()
       ])
